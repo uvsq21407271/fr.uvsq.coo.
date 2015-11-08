@@ -27,8 +27,26 @@ public class AppTest
     {
         return new TestSuite( AppTest.class );
     }
-    
-/*    @Test
+        /**
+     * Rigourous Test :-)
+     */
+    public void testApp()
+    {
+        assertTrue( true );
+    }
+/*  
+    public class MyUnit {
+
+    public String concatenate(String one, String two){
+        return one + two;
+    }
+    }
+    import org.junit.Test;
+    import static org.junit.Assert.*;
+
+    public class MyUnitTest {
+
+    @Test
     public void testConcatenate() {
         MyUnit myUnit = new MyUnit();
 
@@ -36,13 +54,9 @@ public class AppTest
 
         assertEquals("onetwo", result);
 
+    }
+}
+
     }*/
     
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
-    {
-        assertTrue( true );
-    }
 }
