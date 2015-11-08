@@ -27,7 +27,17 @@ public class AppTest
     {
         return new TestSuite( AppTest.class );
     }
+    
+/*    @Test
+    public void testConcatenate() {
+        MyUnit myUnit = new MyUnit();
 
+        String result = myUnit.concatenate("one", "two");
+
+        assertEquals("onetwo", result);
+
+    }*/
+    
     /**
      * Rigourous Test :-)
      */
